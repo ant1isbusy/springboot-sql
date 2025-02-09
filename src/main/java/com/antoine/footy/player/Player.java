@@ -7,7 +7,15 @@ import lombok.Setter;
 @Setter
 public class Player {
     private String name;
-    private int id;
+    private Long id;
     private String team_name;
-    private int team_id;
+    private Long team_id;
+
+
+    public Player(Long id, String name, String team_name, Long team_id) {
+        this.id = id;
+        this.name = name;
+        this.team_name = team_name;
+        this.team_id = team_id;
+    }
 }

@@ -10,4 +10,9 @@ public class AppLogger
     {
         logger.info("App starting on port: " + port + "!");
     }
+
+    public static void handleGet()
+    {
+        logger.info("got GET request!");
+    }
 }
