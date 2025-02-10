@@ -1,2 +1,2 @@
 # springboot-sql
-Java SpringBoot app, REST + pgSQL
+Java SpringBoot template/boilerplate, to reuse for other projects
